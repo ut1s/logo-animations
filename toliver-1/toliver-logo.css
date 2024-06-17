@@ -1,0 +1,29 @@
+.korures {
+    animation: hideshow 3s ease infinite;
+}
+
+.korteli {
+    animation: showhide 3s ease infinite;
+}
+
+.t {
+    animation: telit 3s ease infinite;
+}
+
+@keyframes hideshow {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes showhide {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes telit {
+    0% { fill: #000000; }
+    50% { fill: #ffffff; }
+    100% { fill: #000000; }
+}
