@@ -1,0 +1,23 @@
+body {
+    background-color: #2fe5e5;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 50px;
+    margin: 60px;
+    padding: 40px;
+    width: max-content;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
