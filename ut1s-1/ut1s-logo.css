@@ -1,0 +1,23 @@
+.korteli {
+    animation: hideshow 9s ease infinite;
+}
+
+.u {
+    animation: telit 6s 2s ease infinite;
+}
+
+.e {
+    animation: telit 3s 4s ease infinite;
+}
+
+@keyframes hideshow {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes telit {
+    0% { fill: #ffffff; }
+    50% { fill: #000000; }
+    100% { fill: #ffffff; }
+}
