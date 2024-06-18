@@ -1,0 +1,84 @@
+:root {
+    --bg: #8ecae6;
+    --base: #219ebc;
+    --primary: #023047;
+}
+
+body {
+    background: var(--bg);
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+.t {
+    fill: #219ebc;
+    stroke: #000000;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.t2 {
+    fill: #023047;
+    stroke: #000000;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+.korteli {
+    fill: #023047;
+}
+
+.logo {
+    fill: var(--primary);
+}
+
+.clip {
+    animation: slide 9s infinite;
+}
+
+@keyframes slide {
+    from {
+        transform: translateY(-1100px);
+    }
+
+    45% {
+        transform: translateY(0px);
+    }
+
+    55% {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-1100px);
+    }
+}
+
+.clip-k {
+    animation: slide-kor 9s infinite;
+}
+
+@keyframes slide-kor {
+    from {
+        transform: translateY(1100px);
+    }
+
+    45% {
+        transform: translateY(-45px);
+    }
+
+    55% {
+        transform: translateY(-45px);
+    }
+
+    to {
+        transform: translateY(1100px);
+    }
+}
