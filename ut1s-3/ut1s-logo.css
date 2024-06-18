@@ -1,0 +1,67 @@
+:root {
+    --bg: #8ecae6;
+    --base: #219ebc;
+    --primary: #023047;
+}
+
+body {
+    background: var(--bg);
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+.betu {
+    fill: none;
+    stroke: #000;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10
+}
+
+.clip {
+    animation: slide 9s infinite;
+}
+
+@keyframes slide {
+    from {
+        transform: translateY(-1100px);
+    }
+
+    55% {
+        transform: translateY(0px);
+    }
+
+    65% {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-1100px);
+    }
+}
+
+.clip-k {
+    animation: slide-kor 9s infinite;
+}
+
+@keyframes slide-kor {
+    from {
+        transform: translateY(-1100px);
+    }
+
+    35% {
+        transform: translateY(0px);
+    }
+
+    65% {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-1100px);
+    }
+}
