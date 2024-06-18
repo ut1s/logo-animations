@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 .korteli {
     animation: hideshow 9s ease infinite;
 }

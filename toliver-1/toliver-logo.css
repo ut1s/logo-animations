@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 .korures {
     animation: hideshow 3s ease infinite;
 }
